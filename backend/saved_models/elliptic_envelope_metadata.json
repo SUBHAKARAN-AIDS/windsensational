@@ -1,0 +1,8 @@
+{
+  "model_type": "EllipticEnvelope",
+  "contamination": 0.05,
+  "support_fraction": 0.75,
+  "random_state": 42,
+  "threshold": -174.90260533592243,
+  "export_date": "2026-11-06T10:43:19.388326"
+}

@@ -1,0 +1,44 @@
+{
+  "feature_order": [
+    "wind_speed_ms",
+    "active_power",
+    "vibration_lateral_mms",
+    "gearbox_oil_temperature",
+    "gearbox_oil_inlet_temperature",
+    "gearbox_de_bearing_temperature",
+    "gearbox_nde_bearing_temperature",
+    "main_bearing_temperature",
+    "generator_stator_temp_u",
+    "generator_stator_temp_v",
+    "generator_stator_temp_w",
+    "generator_drive_end_bearing_temperature",
+    "generator_non_drive_end_bearing_temperature",
+    "temperature_outside_nacelle",
+    "pitch_angle_1_deg",
+    "pitch_angle_2_deg",
+    "pitch_angle_3_deg",
+    "vibration_axial_mms"
+  ],
+  "skewed_features": [
+    "wind_speed_ms",
+    "vibration_lateral_mms",
+    "gearbox_oil_temperature",
+    "gearbox_de_bearing_temperature",
+    "gearbox_nde_bearing_temperature",
+    "pitch_angle_1_deg",
+    "pitch_angle_2_deg",
+    "pitch_angle_3_deg",
+    "vibration_axial_mms"
+  ],
+  "normal_features": [
+    "active_power",
+    "gearbox_oil_inlet_temperature",
+    "main_bearing_temperature",
+    "generator_stator_temp_u",
+    "generator_stator_temp_v",
+    "generator_stator_temp_w",
+    "generator_drive_end_bearing_temperature",
+    "generator_non_drive_end_bearing_temperature",
+    "temperature_outside_nacelle"
+  ]
+}

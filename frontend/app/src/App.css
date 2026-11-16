@@ -1,0 +1,49 @@
+:root {
+  /* ============================================================
+     MATERIALS PALETTE — steel, brass, drafting paper, patina.
+     Every color here references something a mechanical engineer
+     actually handles: machined tool steel, brass fittings, aged
+     vellum, oxidized copper, rust, safety-code orange. Nothing
+     is picked for being "pretty" — it's picked for being real.
+     ============================================================ */
+
+  /* Drafting-paper surfaces — warm, slightly aged, not sterile white */
+  --bg-main: #ede6d6;          /* Aged vellum / drafting paper */
+  --bg-card: #faf6ec;          /* Fresh paper — where the "ink" sits */
+  --bg-hover: #e0d5b8;         /* Pencil-smudge sand */
+  --border-color: #d3c4a0;     /* Straightedge line, warm not cold */
+  --border-subtle: #a8916b;    /* Heavier drafting line / graphite */
+
+  /* Typography — warm graphite, like pencil on vellum, not digital black */
+  --text-primary: #2b2013;     /* Deep graphite-brown, oiled-iron dark */
+  --text-secondary: #5c4d38;   /* Faded pencil */
+  --text-muted: #8a7862;       /* Ghost line / construction guide */
+
+  /* Structural accents — machined steel + brass, the two metals
+     that live on every real instrument panel */
+  --accent-steel: #3d5a73;     /* Blued tool-steel — cool, precise, functional */
+  --accent-brass: #a3763a;     /* Brass fitting — warm, tactile, mechanical */
+
+  /* Status indicators — pulled from real shop-floor safety
+     conventions (OSHA-adjacent), not generic UI red/green/yellow.
+     These read as "material states," not stoplight decoration. */
+  --status-nominal: #4c7a5e;   /* Verdigris — oxidized copper at rest, healthy */
+  --status-warning: #c77b23;   /* Safety-caution amber, same family as brass */
+  --status-danger: #a63e2e;    /* Rust-red / oxidized iron, not fire-engine red */
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 2px; /* A machined chamfer, not IBM's raw 0px —
+                          just enough softening to feel handled,
+                          not enough to feel "app-like" */
+}

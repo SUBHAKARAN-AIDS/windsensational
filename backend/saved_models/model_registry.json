@@ -1,0 +1,41 @@
+{
+  "models": {
+    "xgboost": {
+      "file": "xgb_classifier.pkl",
+      "features": "features.txt",
+      "scaler": "scaler.pkl",
+      "type": "classification",
+      "status": "ready"
+    },
+    "isolation_forest": {
+      "file": "isolation_forest.pkl",
+      "scaler": "scaler_if.pkl",
+      "threshold": "isolation_forest_threshold.txt",
+      "type": "anomaly_detection",
+      "status": "ready"
+    },
+    "elliptic_envelope": {
+      "file": "elliptic_envelope.pkl",
+      "threshold": "elliptic_envelope_threshold.txt",
+      "type": "anomaly_detection",
+      "status": "ready"
+    },
+    "lstm_autoencoder": {
+      "file": "lstm_autoencoder.keras",
+      "scaler": "scaler_lstm.pkl",
+      "type": "sequence_anomaly",
+      "status": "ready"
+    },
+    "vae_autoencoder": {
+      "file": "vae_autoencoder.pth",
+      "scaler": "scaler_vae.pkl",
+      "threshold": "vae_threshold.txt",
+      "type": "generative_anomaly",
+      "status": "ready"
+    }
+  },
+  "version": "5.0.0",
+  "export_date": "2026-11-06T10:43:19.736646",
+  "total_models": 5,
+  "ready_models": 5
+}

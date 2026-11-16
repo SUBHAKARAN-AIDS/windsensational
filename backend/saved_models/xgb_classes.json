@@ -1,0 +1,9 @@
+[
+  "bearing_fault",
+  "gearbox_fault",
+  "generator_fault",
+  "normal",
+  "other_fault",
+  "pitch_fault",
+  "vibration_fault"
+]

@@ -1,0 +1,36 @@
+:root {
+  /* IBM Carbon Light Palette (Gray 10 / White Base) */
+  --bg-main: #f4f4f4;          /* Canvas background (Gray 10) */
+  --bg-card: #ffffff;          /* Card surface (White) */
+  --bg-hover: #e0e0e0;         /* Interactive state (Gray 20) */
+  --border-color: #e0e0e0;     /* Crisp structural border */
+  --border-subtle: #8d8d8d;    /* Medium emphasis border */
+
+  /* High Contrast Typography */
+  --text-primary: #161616;    /* Deep Charcoal (Gray 100) */
+  --text-secondary: #525252;  /* Subtitle text (Gray 70) */
+  --text-muted: #6f6f6f;      /* Helper text (Gray 60) */
+
+  /* Enterprise Duotone Accents */
+  --accent-ibm-blue: #0f62fe;  /* IBM Primary Blue */
+  --accent-cool-gray: #393939;/* Slate secondary accent */
+  
+  /* Status Indicators (Subtle Enterprise Standard) */
+  --status-nominal: #198038;  /* Carbon Green */
+  --status-warning: #b28600;  /* Muted Gold */
+  --status-danger: #da1e28;   /* Carbon Red */
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 0px; /* Sharp IBM Carbon edges */
+}
